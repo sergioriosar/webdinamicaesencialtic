@@ -81,7 +81,7 @@
             <div class="contactos_info">
                 <div class="contact_information">
                     <i class="fas fa-2x fa-user"></i>
-                    <p>jldm605@gmail.com</p>
+                    <p>info@esencialtic.com.ar</p>
                 </div>
                 <div class="contact_information">
                     <i class="fas fa-2x fa-user"></i>
@@ -128,4 +128,4 @@
         </div>
     </div>
 </div>
-@endsection 
+@endsection

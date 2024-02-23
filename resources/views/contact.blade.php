@@ -2,19 +2,19 @@
 @section('redes')
 <div class="red">
     <div id="facebook">
-        <a href="https://www.youtube.com/channel/UCuRgEjJgi9iZFCYVSASpXDw" target="none" class="fab fa-facebook-f "></a>
+        <a href="facebook" target="none" class="fab fa-facebook-f "></a>
     </div>
     <div id="instagram">
-        <a href="https://www.youtube.com/channel/UCuRgEjJgi9iZFCYVSASpXDw" target="none" class="fab fa-instagram"></a>
+        <a href="instagram" target="none" class="fab fa-instagram"></a>
     </div>
     <div id="twiter">
         <a href="" target="none" class="fab fa-twitter-square"></a>
     </div>
     <div id="whatsaap">
-        <a href="https://www.linkedin.com/in/jose-diaz-mira/" target="none" class="fab fa-whatsapp"></a>
+        <a href="whatsapp" target="none" class="fab fa-whatsapp"></a>
     </div>
-    <div id="linkeding">
-        <a href="https://www.linkedin.com/in/jose-diaz-mira/" target="none" class="fab fa-linkedin"></a>
+    <div id="linkedin">
+        <a href="linkedin" target="none" class="fab fa-linkedin"></a>
     </div>
 </div>
 @endsection
@@ -24,11 +24,11 @@
         <div class="d-inline-flex ml-auto">
             <div class="headcont">
                 <i class="fas fa-2x fa-mobile-alt messenge"></i>
-                +51 999-999-999
+                +54 999 99999
             </div>
             <div class="headcont">
                 <i class="fas fa-2x fa-envelope messenge"></i>
-                jldm605@gmail.com
+                info@esencialtic.com.ar
             </div>
         </div>
     </div>
@@ -37,8 +37,8 @@
 @section('navbar')
     <header>
     <a href="#" class="logo">
-        <h2 style="color: white" class="imgtamaño">JLDM</h2>
-        <!--<img  class="imgtamaño" src="{{ asset('img/jldm.png')}}" alt="JLDM ! Proyects">-->
+        <h2 style="color: white" class="imgtamaño">EsencialTIC</h2>
+        <!--<img  class="imgtamaño" src="{{ asset('img/esencialtic.png')}}" alt="esencialtic ! Proyects">-->
     </a>
     <div class="menu-toggle" ></div>
         <nav>
@@ -134,22 +134,22 @@
                 </div>
                 <div class="contact_information">
                     <i class="far fa-2x fa-envelope"></i>
-                    <p>jldm605@gmail.com</p>
+                    <p>info@esencialtic.com.ar</p>
                 </div>
             </div>
             <div class="social_media">
                 <p>REDES SOCIALES</p>
                 <div class="social-icons">
-                    <a href="https://www.linkedin.com/in/jose-diaz-mira/" target="none">
+                    <a href="https://www.facebook.com" target="none">
                         <i class="fab fa-facebook-f"></i>
                     </a>
-                    <a href="https://www.linkedin.com/in/jose-diaz-mira/" target="none">
+                    <a href="https://instagram.com" target="none">
                         <i class="fab fa-instagram"></i>
                     </a>
                     <a href="" target="none">
                         <i class="fab fa-twitter-square"></i>
                     </a>
-                    <a href="https://www.linkedin.com/in/jose-diaz-mira/" target="none">
+                    <a href="https://www.linkedin.com/" target="none">
                         <i class="fab fa-linkedin"></i>
                     </a>
                 </div>
@@ -179,10 +179,9 @@
 @section('footer')
 <footer class="footer">
     <div class="l-footer">
-        <!--<img  class="footer_img" src="{{asset('img/JLDIAZ.png')}}" alt="JLDM | Proyectos">-->
-        <h2 style="color: white" class="footer_img">JLDM</h2>
-    <p>Hola Soy JLDIAZ diseñador web esta pagina web esta totalmente gratis para que puedan implementar a algun proyecto universitario la unica de
-        condicon de uso es que mejoren algo a esta pagina web para que asi fortalezcan sus conocimientos.
+        <!--<img  class="footer_img" src="{{asset('img/esencialtic.png')}}" alt="esencialtic | Proyectos">-->
+        <h2 style="color: white" class="footer_img">Esencial TIC</h2>
+    <p>Esencial TIC - Tecnologias de la Informacion y Comunicacion
     </p>
     </div>
         <ul class="r-footer">
@@ -191,7 +190,7 @@
                 <ul class="box">
                     <li class="button_social">
                         <i class="fab mr-2 fa-facebook"></i>
-                        <a href="https://www.linkedin.com/in/jose-diaz-mira/" target="_blank">Facebook</a>
+                        <a href="https://www.facebook.com" target="_blank">Facebook</a>
                     </li>
                     <li class="button_social">
                         <i class="fab mr-2 fa-twitter"></i>
@@ -199,11 +198,11 @@
                     </li>
                     <li class="button_social">
                         <i class="fab mr-2 fa-instagram"></i>
-                        <a href="https://www.linkedin.com/in/jose-diaz-mira/" target="_blank">Instagram</a>
+                        <a href="https://www.instagram.com" target="_blank">Instagram</a>
                     </li>
                     <li class="button_social">
                         <i class="fab mr-2 fa-linkedin-in"></i>
-                        <a href="https://www.linkedin.com/in/jose-diaz-mira/" target="_blank">Linkedin</a>
+                        <a href="https://www.linkedin.com/" target="_blank">Linkedin</a>
                     </li>
                 </ul>
             </li>
@@ -222,7 +221,7 @@
                 </li>
         </ul>
         <div class="b-footer">
-            <p>Todos los Derechos reservados by <a href="https://josediazmirano.github.io/jldiaz/" target="_blank">©JLDIAZ-2020</a></p>
+            <p>Todos los Derechos reservados by <a href="https://esencialtic.com.ar" target="_blank">©EsencialTIC-2024</a></p>
         </div>
 </footer>
 @endsection

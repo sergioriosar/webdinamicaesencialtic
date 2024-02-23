@@ -15,11 +15,11 @@
         </div><!-- /.row -->
     </div><!-- /.container-fluid -->
   </div>
-@include('ofertas.todas.modal') 
+@include('ofertas.todas.modal')
 
 <div class="mt-3 row-cols-1 card-columns ">
     @foreach($ofertas as $oferta)
-        @include('ofertas.todas.modal-delete') 
+        @include('ofertas.todas.modal-delete')
         <div class="card mb-3 " style="max-width: 540px;">
             <div class="row no-gutters">
                 <div class="col-md-4">
@@ -34,30 +34,30 @@
                         <!--<h5 class="card-title">Usuarios que lo publico:{{$oferta->user_id}}</h5><br>-->
                     </div>
                 </div>
-            </div> 
+            </div>
             <div class="card-footer border-info">
                 <a href="{{URL::action('PublicofertController@edit',$oferta->id)}}">
                     <button type="button" class="btn btn-info btn-sm ">
                         <i class="far fa-edit"></i>
-                    </button> 
+                    </button>
                 </a>
                 <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#modalEliminar-{{$oferta->id}}">
                     <i class="far fa-trash-alt"></i>
-                </button> 
+                </button>
             </div>
         </div>
-    @endforeach  
+    @endforeach
         </div>
         <div class="alert alert-success" role="alert">
             <h4 class="alert-heading">Hola {{ Auth::user()->name }}</h4>
             <p>Si vas a publicar una Imagen de oferta del dia porfavor sigue esta recomedación:<br>
-                1-Para que el usuario tenga una mayor satisfaccion al ver 
+                1-Para que el usuario tenga una mayor satisfaccion al ver
                 la imagen porfavor que sus dimensiones sean de <strong>"720 x 1280"</strong>.<br>
                 2-Que la imagen tenga un formato <strong>".jpg"</strong>.<br>
                 3-Respete los caracteres de los campos solicitados.
             </p>
             <hr>
-            <p class="mb-0">Que tengas un hermoso dia Atte: JLDIAZ</p>
+            <p class="mb-0">Esencial TIC</p>
         </div>
 </div>
 @endsection

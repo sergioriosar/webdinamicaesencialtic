@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" type="imagenes" href="{{asset('img/favicon.ico')}}">
-    <title>Fut App | Web Dinamica</title>
+    <title>Esencial TIC| Web Dinamica</title>
 
     <!--LINNK-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">

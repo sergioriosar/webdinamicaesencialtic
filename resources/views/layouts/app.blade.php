@@ -7,7 +7,7 @@
     <link rel="shortcut icon" type="imagenes" href="{{asset('img/favicon.ico')}}">
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>FutApp | Panel</title>
+    <title>Esencial TIC | Panel</title>
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
@@ -88,7 +88,7 @@
                 <a href="{{ url('/') }}" class="brand-link">
                     <img src="https://i.ibb.co/Z2shSJj/animado-Recuperado.png" alt="JLDIAZ logo" class="brand-image img-circle"
                         style="opacity: .8">
-                    <span class="brand-text font-weight-light">JLDM</span>
+                    <span class="brand-text font-weight-light">EsencialTIC</span>
                 </a>
 
                 <!-- Sidebar -->
@@ -240,7 +240,7 @@
             <!-- /.content-wrapper -->
             <footer class="main-footer">
                 <!-- NO QUITAR -->
-                <strong> JLDIAZ
+                <strong> EsencialTIC
                     <div class="float-right d-none d-sm-inline-block">
                         <b>Version</b> 1.0
                     </div>

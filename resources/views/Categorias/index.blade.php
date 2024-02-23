@@ -52,8 +52,8 @@
                 </tr>
                 @endforeach
             </tbody>
-    </table> 
-</div>  
+    </table>
+</div>
 </div><br><br>
 <div class="alert alert-danger" role="alert">
     <h4 class="alert-heading">Hola {{ Auth::user()->name }}</h4>
@@ -63,6 +63,6 @@
         3-No Elimine una categoría a no se por motivos mayores.
     </h4>
     <hr>
-    <p class="mb-0">Que tengas un hermoso dia Atte: JLDIAZ</p>
+    <p class="mb-0">Esencial TIC</p>
 </div>
 @endsection
